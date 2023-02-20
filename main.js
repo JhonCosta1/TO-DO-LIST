@@ -8,6 +8,15 @@ const paleta2 = document.querySelector(".paleta2");
 const paleta3 = document.querySelector(".paleta3");
 
 
+function definePaleta(cor){
+    container.style.background = cor;
+    listaAtividades.style.background = cor;
+};
+
+function removeAtividades(){
+    
+};
+
 function criaAtividade(){
     const atividade = document.createElement("div");
     atividade.classList.add("atividade");
